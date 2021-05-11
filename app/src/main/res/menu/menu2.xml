@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/yourPet"
+        android:icon="@mipmap/logo"
+        android:title="Your Pet"/>
+
+    <item android:id="@+id/likedFeed"
+        android:icon="@drawable/feed"
+        android:title="Liked Feed"/>
+
+</menu>

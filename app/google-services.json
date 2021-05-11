@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "245862118059",
+    "project_id": "happytails-19145",
+    "storage_bucket": "happytails-19145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245862118059:android:8413deb98672e5ebcc3dee",
+        "android_client_info": {
+          "package_name": "com.example.projectone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245862118059-agdfq1k45kvidpl3tvhldrpbo0kri41r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectone",
+            "certificate_hash": "dda4c37408c3c57516913c755eb07f15b9fa1afa"
+          }
+        },
+        {
+          "client_id": "245862118059-u20d0h8qcecjhohfr4so2q90pv6h8dip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANk5823duo7ADPhfyEXcWggJfvVsp_ctE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245862118059-u20d0h8qcecjhohfr4so2q90pv6h8dip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
