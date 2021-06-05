@@ -7,9 +7,14 @@
     tools:context=".SplashScreen">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@mipmap/abcddd"/>
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adopt"
+        android:src="@mipmap/petsimage"/>
 
     <ImageView
         android:layout_width="wrap_content"

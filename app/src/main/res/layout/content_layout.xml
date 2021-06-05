@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#FAD9D8">
+    android:background="@color/content_layout">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbar"
-        android:background="#f64b41"
+        android:background="@color/app_red_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:contentInsetLeft="2dp"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="Adopt Us"
             android:textSize="30dp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/logoColor"
             android:fontFamily="cursive"
             android:textStyle="bold"
             android:layout_marginLeft="80dp"/>
@@ -51,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:id="@+id/bottonNavigation"
-        android:background="#f64b41"
+        android:background="@color/app_red_color"
         app:menu="@menu/nav_menu"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="10dp"
         android:padding="10sp"
-        android:textColor="@color/black"
+        android:textColor="@color/text_color"
         android:id="@+id/profileName"/>
 
     <View

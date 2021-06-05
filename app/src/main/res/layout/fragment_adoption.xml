@@ -23,6 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="20sp"
         android:id="@+id/Adoption"
+        android:backgroundTint="@color/fabBtn"
         android:src="@drawable/dog"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

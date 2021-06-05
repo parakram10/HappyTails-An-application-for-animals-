@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adopt Us</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openDrawer">Drawer Open</string>
+    <string name="closeDrawer">Drawer Close</string>
+    <string name="Feed">R.string.activity_title</string>
+</resources>

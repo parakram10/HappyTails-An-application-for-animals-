@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/content_layout"
     tools:context=".FeedFragment">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -21,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="#44968a"
+        android:backgroundTint="@color/fabBtn"
         app:layout_constraintBottom_toTopOf="@id/feedFab"
         android:layout_margin="20sp"
         android:src="@drawable/help"
@@ -32,7 +33,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_add_24"
         android:id="@+id/feedFab"
-        android:backgroundTint="#44969a"
+        android:backgroundTint="@color/fabBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="20sp"/>

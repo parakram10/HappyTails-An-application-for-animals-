@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="7dp"
+    app:cardBackgroundColor="@color/card_background"
     android:layout_margin="8sp"
     android:elevation="30sp">
 
@@ -27,6 +28,7 @@
             android:layout_height="wrap_content"
             android:text="Parakram singh"
             android:id="@+id/personName"
+            android:textColor="@color/text_color"
             android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@id/personImage"
             app:layout_constraintTop_toTopOf="parent"
@@ -40,6 +42,7 @@
 Demonstrate that you have at least 1-3 years of experience in object-oriented programming, with some of it focused on the Java programming language. (These practicals will not explain object-oriented programming or the Java language.)"
             android:textSize="12dp"
             android:layout_margin="10sp"
+            android:textColor="@color/text_color"
             app:layout_constraintTop_toBottomOf="@id/personImage"
             app:layout_constraintStart_toStartOf="parent"
             android:padding="5dp"

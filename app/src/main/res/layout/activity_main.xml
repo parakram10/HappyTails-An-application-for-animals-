@@ -14,10 +14,20 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity = "left"
-        android:background="@mipmap/abcddd"
+        android:backgroundTint="@color/card_background"
+        app:itemTextColor="@color/text_color"
         app:menu="@menu/menu2"
+        android:layout_gravity = "left"
         android:fitsSystemWindows="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/petsimage"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="65dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
 
         <Button
             android:layout_width="match_parent"
